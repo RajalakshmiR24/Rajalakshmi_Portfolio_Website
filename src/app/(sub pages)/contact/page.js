@@ -24,24 +24,15 @@ export default function Contact() {
           </h1>
         </div>
         <Form />
-        <div className="flex space-x-4">
-          <a
-            href="https://wa.link/ui5mwk"
-            className="footer__social"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="uil uil-whatsapp"></i>
+        <div class="flex space-x-4">
+          <a href="https://wa.link/ui5mwk" class="footer__social" target="_blank" rel="noopener noreferrer">
+            <i class="uil uil-whatsapp"></i>
           </a>
-          <a
-            href="https://www.instagram.com/rajalakshmi_official_24"
-            className="footer__social"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="uil uil-instagram"></i>
+          <a href="https://www.instagram.com/rajalakshmi_official_24" class="footer__social" target="_blank" rel="noopener noreferrer">
+            <i class="uil uil-instagram"></i>
           </a>
         </div>
+
       </article>
     </>
   );
