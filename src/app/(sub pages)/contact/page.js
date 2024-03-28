@@ -20,11 +20,11 @@ export default function Contact() {
       <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
           <h1 className="text-accent font-semibold text-center text-4xl capitalize">
-            Contact ME
+            CONTACT ME
           </h1>
         </div>
         <Form />
-        <div class="flex space-x-4">
+        <div className="flex space-x-4">
           <a href="https://wa.link/ui5mwk" class="footer__social" target="_blank" rel="noopener noreferrer">
             <i class="uil uil-whatsapp"></i>
           </a>
