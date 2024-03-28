@@ -11,19 +11,16 @@ const AboutDetails = () => {
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
           }
         >
+        
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          Passionate front-end developer with expertise in HTML, CSS, JavaScript,
+          React Native, Expo, and Next.js. Dedicated to creating engaging web
+          and mobile interfaces and driving innovative projects. Seeking a position
+          in IT to contribute to organizational prosperity and professional
+          development
           </p>
         </ItemLayout>
 
@@ -31,7 +28,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            20+ <sub className="font-semibold text-base">Projects</sub>
           </p>
         </ItemLayout>
 
@@ -40,7 +37,19 @@ const AboutDetails = () => {
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             4+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+            <sub className="font-semibold text-base">years of experience to build own projects</sub>
+          </p>
+        </ItemLayout>
+
+        <ItemLayout
+          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+        >
+          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            {" "}
+            <sub className="font-semibold text-base">
+            I’m currently learning React Native & Expo
+            <img src="https://github.com/RajalakshmiR24/RajalakshmiR24/assets/127002476/06faed26-4d6b-4f95-a9a2-b6bb352fa8fe" alt="expologo"></img>
+            </sub>
           </p>
         </ItemLayout>
 
@@ -49,8 +58,8 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src="https://camo.githubusercontent.com/9d703cf8593853e2e7d9c2f30fbe74a9c028121f7b204f51d395788f5843142a/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d72616a616c616b73686d697232342673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
+            alt="RajalakshmiR24"
             loading="lazy"
           />
         </ItemLayout>
@@ -58,8 +67,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src="https://camo.githubusercontent.com/0a9c4dccc89357305b937c0f028367f904f1abf9e3dc213acd6350c073fc5ec8/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d72616a616c616b73686d697232342673686f775f69636f6e733d74727565266c6f63616c653d656e"
+            alt="RajalakshmiR24"
             loading="lazy"
           />
         </ItemLayout>
@@ -67,30 +76,23 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=appwrite,babel,bootstrap,css,figma,firebase,git,github,html,js,jquery,netlify,nextjs,nodejs,npm,react,redux,tailwind,threejs,vercel,vite,vscode,yarn`}
+            alt="RajalakshmiR24"
             loading="lazy"
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
+
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
+            href="https://main--zingy-cranachan-3b920a.netlify.app/"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+              src="https://camo.githubusercontent.com/17b5727ccc1058c6a32b3a966c78dbf410206c69a52d376c83d09c007828cb76/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d72616a616c616b73686d6972323426"
               alt="CodeBucks"
               loading="lazy"
             />
